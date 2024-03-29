@@ -82,3 +82,6 @@ class GradeCalculator:
             return 'D'
         else:
             return 'F'
+
+    def calculate_min_average_required_for_grade_A(percentage_grade_till_now,grade_weights):
+        
