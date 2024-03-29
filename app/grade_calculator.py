@@ -83,5 +83,9 @@ class GradeCalculator:
         else:
             return 'F'
 
-    def calculate_min_average_required_for_grade_A(percentage_grade_till_now,grade_weights):
-        
+    @staticmethod
+    def get_grade_is_A(percentage_grade: float) -> bool:
+        """
+        This function checks if the provided percentage grade is an A.
+        """
+        return percentage_grade is not None and percentage_grade >= 0.91  
