@@ -54,3 +54,11 @@ class Grades:
             # Create a string in which each element of the list
             # is separate by a comma
             return 'GRADES --- ' + ', '.join(grades)
+
+
+    def for_grades():
+        """
+        Implement calculation grade here
+        """
+        
+        
